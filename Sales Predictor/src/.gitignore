@@ -1,0 +1,35 @@
+# ===============================
+# IGNORE EVERYTHING BY DEFAULT
+# ===============================
+*
+
+# ===============================
+# UNIGNORE WHAT WE WANT
+# ===============================
+!.gitignore
+!REQUIREMENTS
+
+!Testing/
+!Database/
+!Sim/
+
+# Allow contents
+!Testing/**
+!Database/**
+!Sim/**
+
+# ===============================
+# EXPLICITLY IGNORE MODEL ARTEFACTS
+# ===============================
+Sim/Models/
+
+# ===============================
+# ALWAYS IGNORE JUNK
+# ===============================
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+**/.env
+**/.venv/
+**/venv/
+**/.ipynb_checkpoints/
