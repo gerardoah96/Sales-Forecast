@@ -9,32 +9,35 @@ The system supports **two execution modes**:
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
+```
 Sales-Forecast/
 ├── src/
-│ ├── Sim/
-│ │ ├── simulator.py # Batch simulator (date-driven)
-│ │ ├── Sim_Driver.py # Entry point for simulator.py
-│ │ ├── online_simulator.py # Production / online simulator
-│ │ ├── modeling.py
-│ │ ├── weekly_builder.py
-│ │ ├── seasonality.py
-│ │ ├── caps_and_smoothing.py
-│ │ ├── utils.py
-│ │ └── init.py
-│ ├── Database/
-│ │ └── (database connectors and helpers)
-│ ├── Testing/
-│ │ └── (testing utilities and local validation code)
-│ ├── PHP/
-│ │ └── (PHP runner scripts for web / cron execution)
-│ └── Deprecated/
-│ └── (legacy modules)
+│   ├── Sim/
+│   │   ├── simulator.py          # Batch simulator (date-driven)
+│   │   ├── Sim_Driver.py         # Entry point for simulator.py
+│   │   ├── online_simulator.py   # Production / online simulator
+│   │   ├── modeling.py
+│   │   ├── weekly_builder.py
+│   │   ├── seasonality.py
+│   │   ├── caps_and_smoothing.py
+│   │   ├── utils.py
+│   │   └── __init__.py
+│   ├── Database/
+│   │   └── (database connectors and helpers)
+│   ├── Testing/
+│   │   └── (testing utilities and local validation code)
+│   ├── PHP/
+│   │   └── (PHP runner scripts for web / cron execution)
+│   └── Deprecated/
+│       └── (legacy modules)
 ├── REQUIREMENTS
 └── README.md
+```
 
-Trained model artifacts (`Sim/Models/`) and environment files are intentionally excluded from version control.
+Trained model artifacts (`src/Sim/Models/`) and environment files are intentionally excluded from version control.
+
 
 ---
 
