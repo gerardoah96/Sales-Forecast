@@ -1,0 +1,5 @@
+BELLOW, ONE LINE REQUIREMENTES INSTALLER
+
+PASTE TO TERMINAL
+
+pip install numpy pandas scikit-learn joblib xgboost mysql-connector-python python-dotenv
